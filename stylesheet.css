@@ -8,8 +8,6 @@ body {
     sans-serif;
 }
 
-/* font */
-
 .full-width {
   display: block;
   width: 100%;
@@ -89,8 +87,8 @@ div {
   float: right;
 }
 
-.video {
-  background-color: lightpink;
+iframe {
+  height: 300px;
   float: left;
 }
 
