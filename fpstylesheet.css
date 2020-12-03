@@ -88,7 +88,7 @@ header {
 #intro-home {
   position: relative;
   height: 550px;
-  background-image: url(/images/space.jpg);
+  background-image: url(./images/space.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -98,7 +98,7 @@ header {
 #contact-page {
   position: relative;
   height: 550px;
-  background-image: url(/images/space.jpg);
+  background-image: url(./images/space.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -108,7 +108,7 @@ header {
 #about-page {
   position: relative;
   height: 800px;
-  background-image: url(/images/bananaearthspace.jpg);
+  background-image: url(./images/bananaearthspace.jpg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -192,27 +192,28 @@ header {
 }
 
 .skateboard2 {
-  background-image: url(/images/skateboard2.jpg);
+  background-image: url(./images/skateboard2.jpg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
 }
+
 .whitet1 {
-  background-image: url(/images/whitet1.jpg);
+  background-image: url(./images/whitet1.jpg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
 }
 
 .sweater1 {
-  background-image: url(/images/sweater1.jpg);
+  background-image: url(./images/sweater1.jpg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
 }
 
 .whitet2 {
-  background-image: url(/images/WhiteTee2.jpg);
+  background-image: url(./images/whitet2.jpg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
