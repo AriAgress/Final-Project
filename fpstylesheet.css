@@ -88,7 +88,7 @@ header {
 #intro-home {
   position: relative;
   height: 550px;
-  background-image: url(./Images/space.jpg);
+  background-image: url(./Images/Space.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -98,7 +98,7 @@ header {
 #contact-page {
   position: relative;
   height: 550px;
-  background-image: url(./Images/space.jpg);
+  background-image: url(./Images/Space.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -192,7 +192,7 @@ header {
 }
 
 .skateboard2 {
-  background-image: url(./Images/skateboard2.jpg);
+  background-image: url(./Images/Skateboard2.jpg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -213,7 +213,7 @@ header {
 }
 
 .whitet2 {
-  background-image: url(./Images/whitet2.jpg);
+  background-image: url(./Images/Whitet2.jpg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
