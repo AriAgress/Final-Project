@@ -37,13 +37,20 @@ li {
 }
 
 .logo {
-  width: 67px;
+  width: 60px;
   float: left;
-  height: 67px;
+  height: 60px;
   position: relative;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+}
+
+.logo-name {
+  position: absolute;
+  color: rgb(218, 218, 90);
+  display: block;
+  font-size: 40px;
+  padding: 0px;
+  margin: 0px;
+  left: 80px;
 }
 
 .nav-item {
@@ -74,18 +81,38 @@ header {
   height: 550px;
 }
 
-.intro{
+.intro {
   background-color: black;
 }
 
 #intro-home {
   position: relative;
   height: 550px;
-  background-image: url(https://picsum.photos/1000/1000);
+  background-image: url(/images/space.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   color: white;
+}
+
+#contact-page {
+  position: relative;
+  height: 550px;
+  background-image: url(/images/space.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+#about-page {
+  position: relative;
+  height: 800px;
+  background-image: url(/images/bananaearthspace.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-color: black;
 }
 
 .overlay {
@@ -94,49 +121,119 @@ header {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-.introhome-text {
+.intro-button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: #000000;
+  background-color: rgb(218, 218, 90);
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+  top: 50px;
+  width: 120px;
+}
+
+.intro-button:hover {
+  background-color: #000000;
+  color: rgb(218, 218, 90);
+}
+
+.intro-text {
   position: absolute;
-  left: 220px;
+  left: 500px;
   top: 50%;
   transform: translateY(-50%);
   text-align: center;
   margin: 0 10%;
 }
 
-.introhome-text h1 {
-  font-size: 64px;
+.intro-text p {
+  font-size: 130px;
   margin-bottom: 30px;
+  color: rgb(218, 218, 90);
+  font-weight: bold;
 }
 
-.introhome-text h3 {
+.intro-text h1 {
   font-size: 24px;
   line-height: 30px;
+  color: rgb(218, 218, 90);
 }
 
 .info1 {
-  background-color: teal;
+  background-color: black;
   float: left;
-  height: 550px;
+  height: 700px;
+}
+
+.about-text {
+  position: absolute;
+  left: 460px;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  margin: 0 10%;
+}
+
+.about-text p {
+  font-size: 80px;
+  margin-bottom: 30px;
+  color: rgb(218, 218, 90);
+  font-weight: bold;
+}
+
+.about-text h1 {
+  font-size: 24px;
+  line-height: 30px;
+  color: rgb(218, 218, 90);
+  width: 600px;
+}
+
+.skateboard2 {
+  background-image: url(/images/skateboard2.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.whitet1 {
+  background-image: url(/images/whitet1.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.sweater1 {
+  background-image: url(/images/sweater1.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.whitet2 {
+  background-image: url(/images/WhiteTee2.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
 }
 
 .info2 {
-  background-color: rgb(164, 216, 248);
+  background-color: black;
   float: right;
-  height: 550px;
+  height: 700px;
 }
 
 .info-text {
   position: absolute;
-  right: 10%;
+  right: 25%;
   top: 80%;
-  transform: translateY(-50%);
-  text-align: center;
-  margin: 0 10%;
-  color: white;
+  color: rgb(218, 218, 90);
+  font-size: 80px;
 }
 
 iframe {
-  height: 550px;
+  height: 700px;
   float: left;
 }
 
@@ -149,8 +246,8 @@ footer {
 .social-tag-20 {
   height: 67px;
   width: 100px;
-  margin-left: 120px;
-  margin-right: 120px;
+  margin-left: 125px;
+  margin-right: 125px;
 }
 
 .contact-text {
@@ -160,31 +257,27 @@ footer {
   transform: translateY(-50%);
   text-align: center;
   margin: 0 10%;
-  color: white;
+  color: rgb(218, 218, 90);
 }
 
 .contact-form {
   position: relative;
+  border: none;
   left: 5px;
   top: 110px;
   text-align: center;
   margin: 0 45%;
+  background-color: rgb(218, 218, 90);
 }
 
 .comment-form {
+  border: none;
   position: relative;
   right: 78px;
   top: 110px;
   text-align: center;
   margin: 0 45%;
-}
-
-button {
-  position: relative;
-  right: 8px;
-  top: 110px;
-  text-align: center;
-  margin: 0 48.4%;
+  background-color: rgb(218, 218, 90);
 }
 
 textarea {
@@ -199,13 +292,65 @@ textarea {
 
 .col-text {
   color: white;
-  background-color: grey;
+  background-color: black;
 }
 
 paragraph {
   width: 475px;
   height: 380px;
-  background-color: lightblue;
+  background-color: white;
   position: absolute;
   transform: translatex(15%) translateY(60px);
+}
+
+.vertical-center-wrapper {
+  position: relative;
+  left: 0%;
+  top: 25%;
+  transform: translateY(-50%);
+  text-align: center;
+  margin: 0 10%;
+  color: rgb(218, 218, 90);
+}
+
+.copy-right-wrapper {
+  height: 35px;
+  background-color: black;
+  color: black;
+}
+
+.contactinfo-text {
+  position: absolute;
+  top: 1000px;
+  left: 80px;
+  transform: translateY(-50%);
+  margin: 0 10%;
+}
+
+.contactinfo-text p {
+  font-size: 30px;
+  margin-bottom: 30px;
+  color: rgb(218, 218, 90);
+  font-weight: bold;
+}
+
+.contact-button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: #000000;
+  background-color: rgb(218, 218, 90);
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+  right: 25px;
+  top: 120px;
+  text-align: center;
+  margin: 0 48.4%;
+}
+
+.contact-button:hover {
+  background-color: #000000;
+  color: rgb(218, 218, 90);
 }
